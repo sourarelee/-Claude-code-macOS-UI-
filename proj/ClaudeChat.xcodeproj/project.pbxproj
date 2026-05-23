@@ -1,0 +1,127 @@
+// !$*UTF8*$!
+{ archiveVersion = 1; classes = {}; objectVersion = 56; objects = {
+/* Begin PBXBuildFile section */
+		C00000000002000000000002 /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000000001000000000001; };
+		C00000000004000000000004 /* ClaudeChatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000000003000000000003; };
+		C00000000006000000000006 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000000005000000000005; };
+		C00000000008000000000008 /* Conversation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000000007000000000007; };
+		C00000000010000000000010 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000000009000000000009; };
+		C00000000012000000000012 /* ClaudeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000000011000000000011; };
+		C00000000014000000000014 /* ConversationStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000000013000000000013; };
+		C00000000016000000000016 /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000000015000000000015; };
+		C00000000018000000000018 /* SidebarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000000017000000000017; };
+		C00000000020000000000020 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000000019000000000019; };
+		C00000000022000000000022 /* CenteredTextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000000021000000000021; };
+		C00000000024000000000024 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000000023000000000023; };
+		C00000000026000000000026 /* FileDropModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000000025000000000025; };
+		C00000000028000000000028 /* MarkdownRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000000027000000000027; };
+		C00000000030000000000030 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000000029000000000029; };
+		C00000000032000000000032 /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = C00000000031000000000031; };
+/* End PBXBuildFile section */
+/* Begin PBXFileReference section */
+		C00000000052000000000052 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C00000000031000000000031 /* AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AppIcon.icns; sourceTree = SOURCE_ROOT; };
+		C00000000035000000000035 /* App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "见一面.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C00000000001000000000001 /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
+		C00000000003000000000003 /* ClaudeChatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaudeChatApp.swift; sourceTree = "<group>"; };
+		C00000000005000000000005 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		C00000000007000000000007 /* Conversation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conversation.swift; sourceTree = "<group>"; };
+		C00000000009000000000009 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		C00000000011000000000011 /* ClaudeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaudeService.swift; sourceTree = "<group>"; };
+		C00000000013000000000013 /* ConversationStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationStore.swift; sourceTree = "<group>"; };
+		C00000000015000000000015 /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		C00000000017000000000017 /* SidebarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarViewModel.swift; sourceTree = "<group>"; };
+		C00000000019000000000019 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C00000000021000000000021 /* CenteredTextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenteredTextEditor.swift; sourceTree = "<group>"; };
+		C00000000023000000000023 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		C00000000025000000000025 /* FileDropModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileDropModifier.swift; sourceTree = "<group>"; };
+		C00000000027000000000027 /* MarkdownRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownRenderer.swift; sourceTree = "<group>"; };
+		C00000000029000000000029 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+/* Begin PBXGroup section */
+		C00000000033000000000033 = { isa = PBXGroup; children = (C00000000034000000000034 /* Sources/ClaudeChat */,C00000000031000000000031 /* AppIcon.icns */,C00000000036000000000036 /* Products */,); sourceTree = "<group>"; };
+		C00000000034000000000034 = { isa = PBXGroup; children = (
+				C00000000001000000000001 /* DesignSystem.swift */,
+				C00000000003000000000003 /* ClaudeChatApp.swift */,
+				C00000000037000000000037 /* Models */,C00000000038000000000038 /* Services */,C00000000039000000000039 /* ViewModels */,C00000000040000000000040 /* Views */,C00000000052000000000052 /* Info.plist */,); path = Sources/ClaudeChat; sourceTree = "<group>"; };
+		C00000000037000000000037 = { isa = PBXGroup; children = (C00000000005000000000005 /* Message.swift */,C00000000007000000000007 /* Conversation.swift */,C00000000009000000000009 /* AppSettings.swift */,); name = Models; path = Models; sourceTree = "<group>"; };
+		C00000000038000000000038 = { isa = PBXGroup; children = (C00000000011000000000011 /* ClaudeService.swift */,C00000000013000000000013 /* ConversationStore.swift */,); name = Services; path = Services; sourceTree = "<group>"; };
+		C00000000039000000000039 = { isa = PBXGroup; children = (C00000000015000000000015 /* ChatViewModel.swift */,C00000000017000000000017 /* SidebarViewModel.swift */,); name = ViewModels; path = ViewModels; sourceTree = "<group>"; };
+		C00000000040000000000040 = { isa = PBXGroup; children = (C00000000019000000000019 /* ContentView.swift */,C00000000021000000000021 /* CenteredTextEditor.swift */,C00000000023000000000023 /* SidebarView.swift */,C00000000025000000000025 /* FileDropModifier.swift */,C00000000027000000000027 /* MarkdownRenderer.swift */,C00000000029000000000029 /* SettingsView.swift */,); name = Views; path = Views; sourceTree = "<group>"; };
+		C00000000036000000000036 = { isa = PBXGroup; children = (C00000000035000000000035 /* App.app */,); name = Products; sourceTree = "<group>"; };
+/* End PBXGroup section */
+/* Begin PBXNativeTarget section */
+		C00000000044000000000044 /* App */ = { isa = PBXNativeTarget; buildConfigurationList = C00000000047000000000047; buildPhases = (C00000000041000000000041,C00000000042000000000042,C00000000043000000000043,); buildRules = (); dependencies = (); name = "见一面"; productName = "见一面"; productReference = C00000000035000000000035; productType = "com.apple.product-type.application"; };
+/* End PBXNativeTarget section */
+/* Begin PBXProject section */
+		C00000000045000000000045 /* Project object */ = { isa = PBXProject; attributes = { BuildIndependentTargetsInParallel = 1; LastSwiftUpdateCheck = 1500; LastUpgradeCheck = 1500; TargetAttributes = { C00000000044000000000044 = { CreatedOnToolsVersion = 15.0; }; }; }; buildConfigurationList = C00000000046000000000046; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en,Base,); mainGroup = C00000000033000000000033; productRefGroup = C00000000036000000000036; projectDirPath = ""; projectRoot = ""; targets = (C00000000044000000000044,); };
+/* End PBXProject section */
+/* Begin PBXSourcesBuildPhase section */
+		C00000000041000000000041 /* Sources */ = { isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (
+				C00000000002000000000002 /* DesignSystem.swift in Sources */,
+				C00000000004000000000004 /* ClaudeChatApp.swift in Sources */,
+				C00000000006000000000006 /* Message.swift in Sources */,
+				C00000000008000000000008 /* Conversation.swift in Sources */,
+				C00000000010000000000010 /* AppSettings.swift in Sources */,
+				C00000000012000000000012 /* ClaudeService.swift in Sources */,
+				C00000000014000000000014 /* ConversationStore.swift in Sources */,
+				C00000000016000000000016 /* ChatViewModel.swift in Sources */,
+				C00000000018000000000018 /* SidebarViewModel.swift in Sources */,
+				C00000000020000000000020 /* ContentView.swift in Sources */,
+				C00000000022000000000022 /* CenteredTextEditor.swift in Sources */,
+				C00000000024000000000024 /* SidebarView.swift in Sources */,
+				C00000000026000000000026 /* FileDropModifier.swift in Sources */,
+				C00000000028000000000028 /* MarkdownRenderer.swift in Sources */,
+				C00000000030000000000030 /* SettingsView.swift in Sources */,
+			); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+/* Begin PBXResourcesBuildPhase section */
+		C00000000042000000000042 /* Resources */ = { isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (
+				C00000000032000000000032 /* AppIcon.icns in Resources */,
+			); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+/* Begin PBXFrameworksBuildPhase section */
+		C00000000043000000000043 /* Frameworks */ = { isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+/* Begin XCBuildConfiguration section */
+		C00000000048000000000048 /* Debug */ = { isa = XCBuildConfiguration; buildSettings = {
+			ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ANALYZER_NONNULL = YES; CLANG_CXX_LANGUAGE_STANDARD = "gnu++20"; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES;
+			COPY_PHASE_STRIP = NO; DEBUG_INFORMATION_FORMAT = dwarf; ENABLE_STRICT_OBJC_MSGSEND = YES; ENABLE_USER_SCRIPT_SANDBOXING = YES;
+			GCC_C_LANGUAGE_STANDARD = gnu17; GCC_NO_COMMON_BLOCKS = YES; GCC_WARN_64_TO_32_BIT_CONVERSION = YES; GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+			GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE; GCC_WARN_UNUSED_FUNCTION = YES; GCC_WARN_UNUSED_VARIABLE = YES;
+			INFOPLIST_FILE = "Sources/ClaudeChat/Info.plist"; MACOSX_DEPLOYMENT_TARGET = 14.0; MTL_FAST_MATH = YES; SDKROOT = macosx; SWIFT_VERSION = 5.0;
+			GCC_OPTIMIZATION_LEVEL = 0;
+			GCC_PREPROCESSOR_DEFINITIONS = ("DEBUG=1","$(inherited)",);
+			SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+			ONLY_ACTIVE_ARCH = YES;
+		}; name = Debug; };
+		C00000000049000000000049 /* Release */ = { isa = XCBuildConfiguration; buildSettings = {
+			ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ANALYZER_NONNULL = YES; CLANG_CXX_LANGUAGE_STANDARD = "gnu++20"; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES;
+			COPY_PHASE_STRIP = NO; DEBUG_INFORMATION_FORMAT = dwarf-with-dsym; ENABLE_STRICT_OBJC_MSGSEND = YES; ENABLE_USER_SCRIPT_SANDBOXING = YES;
+			GCC_C_LANGUAGE_STANDARD = gnu17; GCC_NO_COMMON_BLOCKS = YES; GCC_WARN_64_TO_32_BIT_CONVERSION = YES; GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+			GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE; GCC_WARN_UNUSED_FUNCTION = YES; GCC_WARN_UNUSED_VARIABLE = YES;
+			INFOPLIST_FILE = "Sources/ClaudeChat/Info.plist"; MACOSX_DEPLOYMENT_TARGET = 14.0; MTL_FAST_MATH = YES; SDKROOT = macosx; SWIFT_VERSION = 5.0;
+			SWIFT_COMPILATION_MODE = wholemodule;
+			ENABLE_NS_ASSERTIONS = NO;
+		}; name = Release; };
+		C00000000050000000000050 /* Debug */ = { isa = XCBuildConfiguration; buildSettings = {
+			CODE_SIGN_STYLE = Automatic; COMBINE_HIDPI_IMAGES = YES; CURRENT_PROJECT_VERSION = 1; ENABLE_HARDENED_RUNTIME = YES;
+			GENERATE_INFOPLIST_FILE = YES; INFOPLIST_FILE = "Sources/ClaudeChat/Info.plist";
+			LD_RUNPATH_SEARCH_PATHS = ("$(inherited)","@executable_path/../Frameworks",);
+			MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.jianyimian.app; PRODUCT_NAME = "见一面";
+			SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 5.0;
+		}; name = Debug; };
+		C00000000051000000000051 /* Release */ = { isa = XCBuildConfiguration; buildSettings = {
+			CODE_SIGN_STYLE = Automatic; COMBINE_HIDPI_IMAGES = YES; CURRENT_PROJECT_VERSION = 1; ENABLE_HARDENED_RUNTIME = YES;
+			GENERATE_INFOPLIST_FILE = YES; INFOPLIST_FILE = "Sources/ClaudeChat/Info.plist";
+			LD_RUNPATH_SEARCH_PATHS = ("$(inherited)","@executable_path/../Frameworks",);
+			MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.jianyimian.app; PRODUCT_NAME = "见一面";
+			SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 5.0;
+		}; name = Release; };
+/* End XCBuildConfiguration section */
+/* Begin XCConfigurationList section */
+		C00000000046000000000046 = { isa = XCConfigurationList; buildConfigurations = (C00000000048000000000048,C00000000049000000000049,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		C00000000047000000000047 = { isa = XCConfigurationList; buildConfigurations = (C00000000050000000000050,C00000000051000000000051,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+}; rootObject = C00000000045000000000045; }
