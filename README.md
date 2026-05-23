@@ -127,5 +127,6 @@ xcodebuild -project ClaudeChat.xcodeproj \
 | Ruby | 自动生成 Xcode 项目文件 |
 | Claude Code CLI | AI 引擎后端 |
 
-## 许可证
+## 写在最后
+这是我第二个个人开发项目，希望大家喜欢
 沐枫慕夏，倾情巨献
